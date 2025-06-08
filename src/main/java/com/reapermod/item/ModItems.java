@@ -16,18 +16,12 @@ public class ModItems {
     }
     public static void registerModItems(){
         ReaperMod.LOGGER.info("registrazione Item");
-
-        //tab ingredienti
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
-            entries.add(Nether_Diamond);
-            entries.add(Raw_Uranium);
-            entries.add(Vanquisher);
-        });
     }
 
     //Lista Item
     public static final Item Nether_Diamond = registerItem("nether_diamond",new Item(new Item.Settings()));
     public static final Item Raw_Uranium = registerItem("raw_uranium",new Item(new Item.Settings()));
+    public static final Item Uranium_Ingot = registerItem("uranium_ingot",new Item(new Item.Settings()));
     public static final Item Vanquisher = registerItem("vanquisher",new Item(new Item.Settings()));
 
 }

@@ -22,17 +22,11 @@ public class ModBlocks {
     }
     public static void registerModBlocks (){
         ReaperMod.LOGGER.info("registrazione blocchi");
-        //tab creative
-
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register( entries ->{
-            entries.add(ModBlocks.Nether_Diamond_Block);
-        } );
     }
 
     //lista blocchi
-
     public static final Block Nether_Diamond_Block = registerBlock("nether_diamond_block", new Block(AbstractBlock.Settings.create().strength(4f)));
-
-
+    public static final Block Nether_Diamond_Ore = registerBlock("nether_diamond_ore", new Block(AbstractBlock.Settings.create().strength(4f)));
+    public static final Block Uranium_Ore = registerBlock("uranium_ore", new Block(AbstractBlock.Settings.create().strength(4f)));
 
 }

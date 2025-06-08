@@ -2,6 +2,13 @@
   "item.reapermod.nether_diamond" : "Nether Diamond",
   "item.reapermod.raw_uranium" : "Raw Uranium",
   "item.reapermod.vanquisher": "Vanquisher",
+  "item.reapermod.uranium_ingot": "Uranium Ingot",
 
-  "block.reapermod.nether_diamond_block": " Nether Diamond Block"
+  "block.reapermod.nether_diamond_block": "Nether Diamond Block",
+  "block.reapermod.nether_diamond_ore": "Nether Diamond Ore",
+  "block.reapermod.uranium_ore": "Uranium Ore",
+
+  "itemgroup.reapermod.blocchi_mod": "ReaperMod Blocks",
+  "itemgroup.reapermod.ingredienti_mod": "ReaperMod Ingredients",
+  "itemgroup.reapermod.armi_mod": "ReaperMod Weapons"
 }
