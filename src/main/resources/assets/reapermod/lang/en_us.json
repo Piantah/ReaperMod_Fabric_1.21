@@ -1,4 +1,7 @@
 {
   "item.reapermod.nether_diamond" : "Nether Diamond",
-  "item.reapermod.raw_uranium" : "Raw Uranium"
+  "item.reapermod.raw_uranium" : "Raw Uranium",
+  "item.reapermod.vanquisher": "Vanquisher",
+
+  "block.reapermod.nether_diamond_block": " Nether Diamond Block"
 }

@@ -1,5 +1,6 @@
 package com.reapermod;
 
+import com.reapermod.block.ModBlocks;
 import com.reapermod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -21,5 +22,6 @@ public class ReaperMod implements ModInitializer {
 		// Proceed with mild caution.
 		LOGGER.info("Hello Fabric world!");
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }
